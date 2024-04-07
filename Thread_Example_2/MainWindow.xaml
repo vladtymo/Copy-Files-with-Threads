@@ -20,10 +20,10 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Label VerticalContentAlignment="Center" Grid.Row="0" Grid.Column="0">Copy from:</Label>
-            <TextBox Text="" x:Name="fromTb" VerticalContentAlignment="Center" Margin="5" Grid.Row="0" Grid.Column="1"></TextBox>
+            <TextBox Text="C:\Users\Vlad\Desktop\12. System Programming.zip" x:Name="fromTb" VerticalContentAlignment="Center" Margin="5" Grid.Row="0" Grid.Column="1"></TextBox>
             <Button Grid.Row="0" Padding="10,5" Margin="5" Grid.Column="2">Browse</Button>
             <Label VerticalContentAlignment="Center" Grid.Row="1" Grid.Column="0">Copy to:</Label>
-            <TextBox Text="" x:Name="toTb" VerticalContentAlignment="Center" Margin="5" Grid.Row="1" Grid.Column="1"></TextBox>
+            <TextBox Text="C:\Users\Vlad\Desktop\test\12. System Programming.zip" x:Name="toTb" VerticalContentAlignment="Center" Margin="5" Grid.Row="1" Grid.Column="1"></TextBox>
             <Button Grid.Row="1" Padding="10,5" Margin="5" Grid.Column="2">Browse</Button>
 
             <Button Click="CopyButton_Click" Grid.Row="2" Padding="10,5" Margin="5" Grid.Column="2">Copy</Button>
